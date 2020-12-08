@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentManagement", "ApartmentManagement\ApartmentManagement.csproj", "{562EF758-E449-4B9C-9130-2D51C23A1A4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.ApartmentManagement.WebApi", "1.ApartmentManagement.WebApi", "{7AECB41B-F027-4945-ABC3-CB508B2A0BD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.ApartmentManagement.Application", "2.ApartmentManagement.Application", "{07D26D32-FB35-40F0-BB81-9B4778C083D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Apartmentmanagement.Data", "3.Apartmentmanagement.Data", "{CDB9F15C-17EC-43F2-91C9-BB0C947DD672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Apartmentmanagement.Infrastructure", "4.Apartmentmanagement.Infrastructure", "{39506E38-78FA-4D3A-9ECD-E1FB8473AFBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.ApartmentManagement.Utilities", "5.ApartmentManagement.Utilities", "{912288DE-E14B-4989-B50C-E27999BE96F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentManagement.Application", "ApartmentManagement.Application\ApartmentManagement.Application.csproj", "{22F40207-1323-4391-8ED4-84A4A084B035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apartmentmanagement.Data", "Apartmentmanagement.Data\Apartmentmanagement.Data.csproj", "{8B33F755-4E93-45B0-A0E3-25CBB1A949FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apartmentmanagement.Data.EF", "Apartmentmanagement.Data.EF\Apartmentmanagement.Data.EF.csproj", "{97076AD9-73D2-41B0-B7B1-A58CB4D29635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apartmentmanagement.Infrastructure", "Apartmentmanagement.Infrastructure\Apartmentmanagement.Infrastructure.csproj", "{7499DBC0-058A-4A4E-BDA5-2626BC00012F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentManagement.Utilities", "ApartmentManagement.Utilities\ApartmentManagement.Utilities.csproj", "{1AF5EB97-9FE6-41E1-9945-B6E72879114A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{562EF758-E449-4B9C-9130-2D51C23A1A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562EF758-E449-4B9C-9130-2D51C23A1A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562EF758-E449-4B9C-9130-2D51C23A1A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562EF758-E449-4B9C-9130-2D51C23A1A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F40207-1323-4391-8ED4-84A4A084B035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F40207-1323-4391-8ED4-84A4A084B035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F40207-1323-4391-8ED4-84A4A084B035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F40207-1323-4391-8ED4-84A4A084B035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B33F755-4E93-45B0-A0E3-25CBB1A949FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B33F755-4E93-45B0-A0E3-25CBB1A949FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B33F755-4E93-45B0-A0E3-25CBB1A949FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B33F755-4E93-45B0-A0E3-25CBB1A949FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97076AD9-73D2-41B0-B7B1-A58CB4D29635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97076AD9-73D2-41B0-B7B1-A58CB4D29635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97076AD9-73D2-41B0-B7B1-A58CB4D29635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97076AD9-73D2-41B0-B7B1-A58CB4D29635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7499DBC0-058A-4A4E-BDA5-2626BC00012F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7499DBC0-058A-4A4E-BDA5-2626BC00012F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7499DBC0-058A-4A4E-BDA5-2626BC00012F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7499DBC0-058A-4A4E-BDA5-2626BC00012F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF5EB97-9FE6-41E1-9945-B6E72879114A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF5EB97-9FE6-41E1-9945-B6E72879114A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF5EB97-9FE6-41E1-9945-B6E72879114A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF5EB97-9FE6-41E1-9945-B6E72879114A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{562EF758-E449-4B9C-9130-2D51C23A1A4E} = {7AECB41B-F027-4945-ABC3-CB508B2A0BD2}
+		{22F40207-1323-4391-8ED4-84A4A084B035} = {07D26D32-FB35-40F0-BB81-9B4778C083D2}
+		{8B33F755-4E93-45B0-A0E3-25CBB1A949FE} = {CDB9F15C-17EC-43F2-91C9-BB0C947DD672}
+		{97076AD9-73D2-41B0-B7B1-A58CB4D29635} = {CDB9F15C-17EC-43F2-91C9-BB0C947DD672}
+		{7499DBC0-058A-4A4E-BDA5-2626BC00012F} = {39506E38-78FA-4D3A-9ECD-E1FB8473AFBF}
+		{1AF5EB97-9FE6-41E1-9945-B6E72879114A} = {912288DE-E14B-4989-B50C-E27999BE96F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {733C9A18-13F2-4AED-B93E-B52472592AF8}
+	EndGlobalSection
+EndGlobal
